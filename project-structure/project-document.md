@@ -53,14 +53,13 @@ _Data Science Projects should have an operationalized end point in mind from the
 ### Data Sets
 
 
-*   
+* [WikiSQL](https://github.com/salesforce/WikiSQL)
 
 
 ### References
 
 
-
-1. 
+1. [Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning](https://arxiv.org/abs/1709.00103)
 
 
 ## Weekly Meeting Updates
