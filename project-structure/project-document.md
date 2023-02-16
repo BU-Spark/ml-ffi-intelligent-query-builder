@@ -1,6 +1,6 @@
 # Project Document
 
-## OsamaDabb, fjgao2buedu, vjain25, HZ2001, eamonniknafs, 2023-Feb-16 v0.0.1-dev_
+## OsamaDabb, fjgao2buedu, vjain25, HZ2001, eamonniknafs, 2023-Feb-16 v0.0.2-dev_
 
 
 ## Overview
@@ -13,14 +13,18 @@ impact this project will have if successfully completed._
 
 1. Situation and current issues
 2. Key Questions
-3. Hypothesis: Overview of how it could be done
-4. Impact
+    1. What language is the NL(natural language) text written in?
+    2. Will the database schema change overtime?
+4. Hypothesis: Overview of how it could be done
+5. Impact
 
 
 ### A. Problem Statement: 
 
 _In as direct terms as possible, provide the “Data Science” problem statement version of the overview. Think of this as 
 translating the above into a more technical definition to execute on._
+
+Given a text of human natural language and a database, generate the query that would obtain the information the text wants from the database.
 
 
 ### B. Checklist for project completion
