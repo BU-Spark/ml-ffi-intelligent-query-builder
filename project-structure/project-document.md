@@ -1,6 +1,6 @@
 # Project Document
 
-## OsamaDabb, fjgao2buedu, vjain25, HZ2001, eamonniknafs, 2023-Feb-16 v0.0.2-dev_
+## OsamaDabb, fjgao2buedu, vjain25, HZ2001, eamonniknafs, 2023-Feb-16 v0.1.0-dev_
 
 
 ## Overview
