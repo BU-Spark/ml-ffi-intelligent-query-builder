@@ -15,16 +15,13 @@ impact this project will have if successfully completed._
 2. Key Questions
     1. What language is the NL(natural language) text written in?
     2. Will the database schema change overtime?
-4. Hypothesis: Overview of how it could be done
-5. Impact
+3. Hypothesis: Overview of how it could be done
+4. Impact -- need further communication with the client
 
 
 ### A. Problem Statement: 
 
-_In as direct terms as possible, provide the “Data Science” problem statement version of the overview. Think of this as 
-translating the above into a more technical definition to execute on._
-
-Given a text of human natural language and a database, generate the query that would obtain the information the text wants from the database.
+Vianey is a database which stors information from various industries and clients in JSON and spreadsheet format. We want to achieve the function that given a piece of plain text of human natural language, we shall generate a logical query that would obtain the data from Vianey database as desired.
 
 
 ### B. Checklist for project completion
@@ -46,25 +43,24 @@ automate with Machine Learning. Provide as much detail as possible._
 
 ### D. Outline a path to operationalization.
 
-_Data Science Projects should have an operationalized end point in mind from the onset. Briefly describe how you see the tool
- produced by this project being used by the end user beyond a jupyter notebook or proof of concept. If possible, be specific and
- call out the relevant technologies_
-
+Operationlization is as important as the query tool we to build. This is because any technology is useless if people are unable to use it. There are several possible ways of operationalize the tool. First, creating a basic terminal interface that allows people to obtain data and generate output files would be sufficient for staff who have tech backgrounds; adding on to this, we could also containerize the tool into a Docker image for easier deployments. Second, we can deploy the tool in to a server, and create a web app which links to the database. By running the data query tool as a serverless function call, we are able to return and display the data on the web page for beter user experience. This solution will help more staff who does not have sufficient technical background to use this tool. 
 
 ## Resources
 
+General Resources 
+- https://odsc.medium.com/20-open-datasets-for-natural-language-processing-538fbfaf8e38
 
 ### Data Sets
 
 
 * [WikiSQL](https://github.com/salesforce/WikiSQL)
+* [The Blog Authorship Corpus](https://u.cs.biu.ac.il/~koppel/BlogCorpus.htm)
 
 
 ### References
 
 
 1. [Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning](https://arxiv.org/abs/1709.00103)
-
 
 ## Weekly Meeting Updates
 
