@@ -9,7 +9,7 @@ _A brief summary of the project based on initial research and stakeholder meetin
 explain at a high level the stakeholders’ desired outcome for the project as well as the potential business value or 
 impact this project will have if successfully completed._
 
-
+Vianey, our database, is used to collect and store information about abuses suffered in immigration detention, requests for support from folks in detention, case management, bond fund, and several other buckets of work. Because our organization stores aggregate data from many different programs, we are often asked to run queries/pull data from a variety of different staff and partners. This is incredibly important, as it is used for various reports and campaigns, but it is very time consuming for staff. We would like for BU Spark! to design a query builder that will intake requests in plain language, turn them into logical queries, and pull the data. 
 
 1. Situation and current issues
 2. Key Questions
