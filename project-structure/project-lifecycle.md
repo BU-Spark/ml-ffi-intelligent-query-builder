@@ -4,7 +4,7 @@ The purpose of this document is to provide machine learning and data science pro
 
 Following is a timeline that can be followed for the projects.
 
-![project timeline](./project-timeline.png "project timeline")
+![project timeline](https://raw.githubusercontent.com/BU-Spark/ml-549-course/main/project-structure/project-timeline.png "project timeline")
 
 # How do I manage my project?
 
