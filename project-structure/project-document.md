@@ -1,7 +1,7 @@
 # Project Document
 
 ## OsamaDabb, fjgao2buedu, vjain25, HZ2001, eamonniknafs
-### 2023-Feb-19 v0.1.1-dev_
+### 2023-Feb-19 v0.1.2-dev_
 
 ### [project description](https://docs.google.com/document/d/1XQ0WxdrtvXnMM5lx3uDSYdlVJYCoXyKLIrG7oPV5uUY/edit?usp=sharing)
 
@@ -14,15 +14,19 @@ impact this project will have if successfully completed._
 Vianey, our database, is used to collect and store information about abuses suffered in immigration detention, requests for support from folks in detention, case management, bond fund, and several other buckets of work. Because our organization stores aggregate data from many different programs, we are often asked to run queries/pull data from a variety of different staff and partners. This is incredibly important, as it is used for various reports and campaigns, but it is very time consuming for staff. We would like for BU Spark! to design a query builder that will intake requests in plain language, turn them into logical queries, and pull the data. 
 
 1. Situation and current issues
-2. Key Questions
+    1. need client progress
+3. Key Questions
     1. What language is the NL(natural language) text written in?
     2. Will the database schema change overtime?
     3. Does the future user of this product know the exact entity names in the database?
     4. Will the future user try to use the exact entity names to build the query text?
-    5. How much data is provided?
-    6. **I think we need more ideas here!**
-3. Hypothesis: Overview of how it could be done
-4. Impact -- need further communication with the client
+    5. How much data is provided? 
+    6. Do we need to build more data?
+    7. **I think we need more ideas here!**
+4. Hypothesis: Overview of how it could be done
+    1. ideally, train the model specifically about the Vianey database so that the model is sensitive to related terms.
+    2. 
+6. Impact -- need further communication with the client
 
 ### A. Problem Statement: 
 
