@@ -12,6 +12,8 @@ Create branch: {yourname}Outline{Edit}? from 'outline'.
 
 Commit changes to your branch.
 
+Merge changes from outline branch to your branch.(?)
+
 **Create pull request!!!** and merge to the outline branch.
 
 Delete your branch after merging. 
