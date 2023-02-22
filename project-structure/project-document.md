@@ -14,8 +14,8 @@ impact this project will have if successfully completed._
 Vianey, our database, is used to collect and store information about abuses suffered in immigration detention, requests for support from folks in detention, case management, bond fund, and several other buckets of work. Because our organization stores aggregate data from many different programs, we are often asked to run queries/pull data from a variety of different staff and partners. This is incredibly important, as it is used for various reports and campaigns, but it is very time consuming for staff. We would like for BU Spark! to design a query builder that will intake requests in plain language, turn them into logical queries, and pull the data. 
 
 1. Situation and current issues
-    1. need client progress
-3. Key Questions
+    1.Freedom For Immigrants (FFI) is an organization that is devoted to abolishing immigration detention, and fighting against injustices against immigrants. The FFI uses a database known as Vianey to organize case files, bond funds, and other important documents. Since this database stores aggregate data from multiple programs, they are often asked to run queries on the database, which is difficult and time consuming for their employees.
+2. Key Questions
     1. What language is the NL(natural language) text written in?
     2. Will the database schema change overtime?
     3. Does the future user of this product know the exact entity names in the database?
@@ -23,10 +23,9 @@ Vianey, our database, is used to collect and store information about abuses suff
     5. How much data is provided? 
     6. Do we need to build more data?
     7. **I think we need more ideas here!**
-4. Hypothesis: Overview of how it could be done
-    1. ideally, train the model specifically about the Vianey database so that the model is sensitive to related terms.
-    2. 
-6. Impact -- need further communication with the client
+3. Hypothesis: Overview of how it could be done
+    1. A program that is capable of translating plain language into SQL queries and then automatically querying the database for the expected output.
+4. Impact -- need further communication with the client
 
 ### A. Problem Statement: 
 
@@ -37,8 +36,11 @@ Vianey is a database which stores information from various industries and client
 >_Provide a bulleted list of the concrete deliverables and artifacts that, when complete, define the completion of the
  project._
 
-1. A model that is able to identify the entities in a plain text request and their relationship to each other. 
-2. A method to map the outputs from deliverable 1 to an executable query on MongoDB.
+The final product will include two main deliverables:
+
+A model that is able to spot the necessary entities in a plain English-language text request as well as the correlation among them. 
+A method to convert the relations from deliverable 1 to an executable query on MongoDB.
+
 
 
 ### C. Provide a solution in terms of human actions to confirm if the task is within the scope of automation through AI. 
@@ -46,13 +48,7 @@ Vianey is a database which stores information from various industries and client
 >_To assist in outlining the steps needed to achieve our final goal, outline the AI-less process that we are trying to 
 automate with Machine Learning. Provide as much detail as possible._
 
-Human procedures:
-1. given a prompt of text.
-2. identify the terms in the text.
-3. identify the relationship between the terms and the database schemas. i.e. identify the table relevent to the text query.
-4. construct the logical query.
-5. execute the query and examine the result.
-6. 
+Currently, when someone wants to operate on the data in the MongoDB database, they construct an SQL query on the fields using the relationships that bring the data together. This requires not only a strong understanding of SQL but also a deep knowledge of the different fields and technicalities of the MongoDB database. This is within the scope of automation of AI because the users know what output they want—they simply need something to simplify the process of pulling that output from the database. An NLP program that can understand the user’s query in normal text and translate it into query language would solve the issue. In simple terms, it is a translator from English to SQL. 
 
 ### D. Outline a path to operationalization.
 
@@ -69,10 +65,17 @@ General Resources
 
 * [WikiSQL](https://github.com/salesforce/WikiSQL)
 * [The Blog Authorship Corpus](https://u.cs.biu.ac.il/~koppel/BlogCorpus.htm)
+* Finegan-Dollak, C., Kummerfeld, J. K., Zhang, L., Ramanathan, K., Sadasivam, S., Zhang, R., & Radev, D. (2018). Improving text-to-sql evaluation methodology. arXiv preprint arXiv:1806.09029. “Paper that discusses the state of the art in text-to-sql querying. Brings up significant points on the how query/question based querying impact the networks robustness against novel inputs. Also provides a labeled dataset to be used in the training of text-to-SQL networks.”
+* Tao Yu, Rui Zhang, Kai Yang, Michihiro Yasunaga, Dongxu Wang, Zifan Li, James Ma, Irene Li, Qingning Yao, Shanelle Roman, et al. Spider: A large-scale human-labeled dataset for complex and cross-domain semantic parsing and text-to-sql task. arXiv preprint arXiv:1809.08887, 2018. “Spider—a large-scale, complex and cross-domain semantic parsing and text to-SQL dataset annotated by 11 college students. It consists of 10,181 questions and 5,693 unique complex SQL queries on 200 databases with multiple tables, covering 138 different domains.”
+
 
 ### References
 
 1. [Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning](https://arxiv.org/abs/1709.00103)
+2. Victor Zhong, Caiming Xiong, and Richard Socher. Seq2sql: Generating structured queries from natural language using reinforcement learning. CoRR, abs/1709.00103, 2017.
+3. Xiaojun Xu, Chang Liu, and Dawn Song. Sqlnet: Generating structured queries from natural language without reinforcement learning. arXiv preprint arXiv:1711.04436, 2017.
+4. Scholak, T., Li, R., Bahdanau, D., de Vries, H., & Pal, C. (2020). DuoRAT: towards simpler text-to-SQL models. arXiv preprint arXiv:2010.11119. 
+“Simplified Text-to-SQL using relation-aware/vanilla transformers.”
 
 ## Docs
 
