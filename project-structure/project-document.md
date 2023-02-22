@@ -1,7 +1,7 @@
 # Intelligent Query Builder
 
 ## OsamaDabb, fjgao2buedu, vjain25, HZ2001, eamonniknafs
-### 2023-Feb-23 v0.1.3-dev_
+### 2023-Feb-22 v0.1.3-dev_
 
 ### [Project description](https://docs.google.com/document/d/1XQ0WxdrtvXnMM5lx3uDSYdlVJYCoXyKLIrG7oPV5uUY)
 
