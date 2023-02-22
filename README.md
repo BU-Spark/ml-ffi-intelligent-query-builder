@@ -8,7 +8,7 @@ All Pull Requests must follow the Pull Request Template, with a title formatted 
 
 # [Project Outline](./project-structure/project-document.md)
 
-Create branch: {yourname}Outline{Edit}? from 'outline'.
+Create branch: {yourname}Outline{...} from 'outline'.
 
 Commit changes to your branch.
 
