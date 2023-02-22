@@ -6,7 +6,7 @@ To add yourself to the repository, open a Pull Request modifying `COLLABORATORS`
 
 All Pull Requests must follow the Pull Request Template, with a title formatted like such `[Project Name]: <Descriptive Title>`
 
-# Project Outline
+# [Project Outline](./project-structure/project-document.md)
 
 Create branch: {yourname}Outline{Edit}? from 'outline'.
 
