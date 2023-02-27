@@ -1,7 +1,7 @@
 # Intelligent Query Builder
 
 ## OsamaDabb, fjgao2buedu, vjain25, HZ2001, eamonniknafs
-### 2023-Feb-27 v0.1.4-dev_
+### 2023-Feb-27 v0.1.5-dev_
 
 ### [Project description](https://docs.google.com/document/d/1XQ0WxdrtvXnMM5lx3uDSYdlVJYCoXyKLIrG7oPV5uUY)
 ### [Team agreement](https://docs.google.com/document/d/1Jgo76vkw-k7ERRndB9KnIbkrxzUap9c0J1TJNTobevE)
@@ -75,8 +75,22 @@ General Resources
 1. [Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning](https://arxiv.org/abs/1709.00103)
 2. Victor Zhong, Caiming Xiong, and Richard Socher. Seq2sql: Generating structured queries from natural language using reinforcement learning. CoRR, abs/1709.00103, 2017.
 3. Xiaojun Xu, Chang Liu, and Dawn Song. Sqlnet: Generating structured queries from natural language without reinforcement learning. arXiv preprint arXiv:1711.04436, 2017.
-4. Scholak, T., Li, R., Bahdanau, D., de Vries, H., & Pal, C. (2020). DuoRAT: towards simpler text-to-SQL models. arXiv preprint arXiv:2010.11119. 
-“Simplified Text-to-SQL using relation-aware/vanilla transformers.”
+4. Scholak, T., Li, R., Bahdanau, D., de Vries, H., & Pal, C. (2020). DuoRAT: towards simpler text-to-SQL models. arXiv preprint arXiv:2010.11119. “Simplified Text-to-SQL using relation-aware/vanilla transformers.”
+5. ["Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task" by Yu et al. (2018) ](https://aclanthology.org/D18-1425.pdf)
+6. ["Learning Structured Text Representations" by Matthew E. Peters et al. (2018)](https://arxiv.org/pdf/2201.00490.pdf)
+7. ["A Fast and Accurate Dependency Parser using Neural Networks" by Danqi Chen and Christopher D. Manning (2014)](https://aclanthology.org/D14-1082.pdf)
+8. ["Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey"](https://arxiv.org/pdf/2208.04415.pdf)
+9. ["Querying NoSQL with Deep Learning to Answer Natural Language Questions" by Sebastian Blank](https://www.researchgate.net/publication/329466362_Querying_NoSQL_with_Deep_Learning_to_Answer_Natural_Language_Questions)
+10. ["Natural Language To NoSQL Query Conversion using Deep Learning" by Pradeep T](https://deliverypdf.ssrn.com/delivery.php?ID=977064095013107093127003094097009104019054002084028050101111093093119017004111103011043053098015118055007099029119118094090027019055041077011069094115100104109081019042085031009081106064086027100090107088086006075023084026065122091106121069074109117106&EXT=pdf&INDEX=TRUE)
+11. ["AI-based Question Answering system for NoSQL standard query"](https://ceur-ws.org/Vol-3058/Paper-088.pdf)
+12. [Stanford SQL-Net](https://github.com/stanfordnlp/stanfordnlp)
+13. [SpaCy](https://spacy.io/)
+14. [Stanza](https://stanfordnlp.github.io/stanza/)
+15. [NLTK](https://www.nltk.org/)
+16. [OPENAI SQL translation](https://platform.openai.com/examples/default-sql-translate)
+17. [Dependency Parser](https://www.quora.com/Natural-Language-Processing-What-are-some-of-the-best-libraries-starting-points-in-Ruby-for-translating-an-English-sentence-question-to-an-SQL-query-or-NoSQL-map-reduce)
+18. [Natural Language Processing With Neo4j - Mining Paradigmatic Word Associations](https://www.lyonwj.com/blog/nlp-with-neo4j)
+
 
 ## Docs
 
