@@ -1,9 +1,10 @@
 # Intelligent Query Builder
 
 ## OsamaDabb, fjgao2buedu, vjain25, HZ2001, eamonniknafs
-### 2023-Feb-22 v0.1.3-dev_
+### 2023-Feb-27 v0.1.4-dev_
 
 ### [Project description](https://docs.google.com/document/d/1XQ0WxdrtvXnMM5lx3uDSYdlVJYCoXyKLIrG7oPV5uUY)
+### [Team agreement](https://docs.google.com/document/d/1Jgo76vkw-k7ERRndB9KnIbkrxzUap9c0J1TJNTobevE)
 
 ## Overview
 
@@ -79,10 +80,11 @@ General Resources
 
 ## Docs
 
-### Weekly Meeting Updates
-
+### Weekly Meeting Updates 
 >_Keep track of ongoing meetings in a google doc and link it to this markdown_
 
-[2023-Feb-23](https://docs.google.com/document/d/17G_Ld7xJ7OJ66DFJCCklca7fR4LksfdMrXe1oqRW79Y)
+Meeting notes in [Project description](https://docs.google.com/document/d/1XQ0WxdrtvXnMM5lx3uDSYdlVJYCoXyKLIrG7oPV5uUY)
 
-Example meeting notes [google doc](https://docs.google.com/document/d/1EQbzWQMvNOFHZhj7xVXqPxkXgTaWG6kHKtYo5y-USVo/edit?usp=sharing). You can create a copy of this document for your project and update the meeting document as the project progresses.
+- [2023-Feb-23](https://docs.google.com/document/d/1XQ0WxdrtvXnMM5lx3uDSYdlVJYCoXyKLIrG7oPV5uUY/edit#heading=h.a0ig0p1ae66m)
+
+Example meeting notes [google doc](https://docs.google.com/document/d/17G_Ld7xJ7OJ66DFJCCklca7fR4LksfdMrXe1oqRW79Y) from [template](https://docs.google.com/document/d/1EQbzWQMvNOFHZhj7xVXqPxkXgTaWG6kHKtYo5y-USVo/edit?usp=sharing). You can create a copy of this document for your project and update the meeting document as the project progresses.
