@@ -24,6 +24,19 @@ Open Source Projects Found:
 - SpaCy - This is a Python library for natural language processing. It includes tools for part-of-speech tagging, dependency parsing, named entity recognition, and more. It can be used for generating SQL queries from natural language text.
 - Stanza (formerly CoreNLP) - This is a natural language processing toolkit developed by the Stanford NLP Group. It includes tools for part-of-speech tagging, named entity recognition, dependency parsing, and more. It can be used for generating SQL queries from natural language text.
 - NLTK - This is a popular Python library for natural language processing. It includes tools for tokenization, stemming, part-of-speech tagging, and more. It can be used for generating SQL queries from natural language text.
+- [OPENAI SQL translation](https://platform.openai.com/examples/default-sql-translate)
+```
+### Postgres SQL tables, with their properties:
+#
+# Facility(id, name)
+# Incidents(id, type, date, content)
+#
+### Hotline calls in the 2022 in the Golden Gate
+SELECT * FROM Incidents WHERE date BETWEEN '2022-01-01' AND '2022-12-31' AND facility_id = 1
+```
+Tested the openai example for sql translation, the ai can complete the part after SELECT. 
+The table property is imagined. The generated query is reasonable, but it can't identify the 'Golden Gate' as a hypothetical facility name.
+
 
 Other Useful Links:
 
