@@ -2,28 +2,34 @@ This document is intended to track and explain our research progress toward our 
 
 Papers found for general purposes are:
 
-- "Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning" by Wang et al. (2018) 
+- ["Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning" by Wang et al. (2018)](https://arxiv.org/pdf/1709.00103.pdf)
     This paper introduces a model that learns to generate SQL queries from natural language input using a combination of sequence-to-sequence neural networks and reinforcement learning. 
-- "Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task" by Yu et al. (2018) 
+- ["Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task" by Yu et al. (2018) ](https://aclanthology.org/D18-1425.pdf)
     This paper presents a dataset and a model that can generate SQL queries from natural language input for a variety of tasks, including complex queries and cross-domain queries.
-- "Learning Structured Text Representations" by Matthew E. Peters et al. (2018) proposes a model for learning structured text representations based on constituency parsing. The model uses a self-attention mechanism to incorporate context and a tree-LSTM to model the hierarchical structure of the input.
-- "A Fast and Accurate Dependency Parser using Neural Networks" by Danqi Chen and Christopher D. Manning (2014) introduces a fast and accurate dependency parser based on neural networks. The model is trained on large-scale datasets and uses a transition-based parsing algorithm.
+- ["Learning Structured Text Representations" by Matthew E. Peters et al. (2018)](https://arxiv.org/pdf/2201.00490.pdf) proposes a model for learning structured text representations based on constituency parsing. The model uses a self-attention mechanism to incorporate context and a tree-LSTM to model the hierarchical structure of the input.
+- ["A Fast and Accurate Dependency Parser using Neural Networks" by Danqi Chen and Christopher D. Manning (2014)](https://aclanthology.org/D14-1082.pdf) introduces a fast and accurate dependency parser based on neural networks. The model is trained on large-scale datasets and uses a transition-based parsing algorithm.
+- ["Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey"](https://arxiv.org/pdf/2208.04415.pdf)
 
 Papers for converting Natrual language to MongoDB query language.
 
-- "MANS: Mapping Natural Language to Structured Query Language for MongoDB" by Rishabh Bhardwaj et al. (2019)
-    This paper presents a system for mapping natural language queries to MQL queries. The system consists of two components: a semantic parser and a query executor. The semantic parser uses a combination of handcrafted rules and machine learning techniques to parse the natural language query and generate an intermediate query representation. The query executor then maps this intermediate representation to the corresponding MQL query using a set of predefined mapping rules.
+- ["Querying NoSQL with Deep Learning to Answer Natural Language Questions" by Sebastian Blank](https://www.researchgate.net/publication/329466362_Querying_NoSQL_with_Deep_Learning_to_Answer_Natural_Language_Questions)
+- ["Natural Language To NoSQL Query Conversion using Deep Learning" by Pradeep T](https://deliverypdf.ssrn.com/delivery.php?ID=977064095013107093127003094097009104019054002084028050101111093093119017004111103011043053098015118055007099029119118094090027019055041077011069094115100104109081019042085031009081106064086027100090107088086006075023084026065122091106121069074109117106&EXT=pdf&INDEX=TRUE) 
+-["AI-based Question Answering system for NoSQL standard query"](https://ceur-ws.org/Vol-3058/Paper-088.pdf)
 
-- "Natural Language to MongoDB Query Translation" by Hussain et al. (2019)
-    This paper proposes a system for translating natural language queries to MQL queries using a combination of rule-based and machine learning techniques. The system first tokenizes and parses the natural language query using a rule-based parser, and then generates an intermediate query representation using a set of predefined rules. Finally, a machine learning model is used to map the intermediate representation to the corresponding MQL query.
 
-Open Source Projects found:
 
-- [Mongooseim](https://github.com/esl/mongooseim)
-
-- [NaQL](https://github.com/shrinidhiraj/NaQL)
+Open Source Projects Found:
 
 - [Stanford SQL-Net](https://github.com/stanfordnlp/stanfordnlp)
+- SpaCy - This is a Python library for natural language processing. It includes tools for part-of-speech tagging, dependency parsing, named entity recognition, and more. It can be used for generating SQL queries from natural language text.
+- Stanza (formerly CoreNLP) - This is a natural language processing toolkit developed by the Stanford NLP Group. It includes tools for part-of-speech tagging, named entity recognition, dependency parsing, and more. It can be used for generating SQL queries from natural language text.
+- NLTK - This is a popular Python library for natural language processing. It includes tools for tokenization, stemming, part-of-speech tagging, and more. It can be used for generating SQL queries from natural language text.
+
+Other Useful Links:
+
+- [Dependency Parser](https://www.quora.com/Natural-Language-Processing-What-are-some-of-the-best-libraries-starting-points-in-Ruby-for-translating-an-English-sentence-question-to-an-SQL-query-or-NoSQL-map-reduce)
+- [Natural Language Processing With Neo4j - Mining Paradigmatic Word Associations](https://www.lyonwj.com/blog/nlp-with-neo4j)
+
 
 
 Updated outline:
