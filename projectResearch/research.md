@@ -14,7 +14,7 @@ Papers for converting Natrual language to MongoDB query language.
 
 - ["Querying NoSQL with Deep Learning to Answer Natural Language Questions" by Sebastian Blank](https://www.researchgate.net/publication/329466362_Querying_NoSQL_with_Deep_Learning_to_Answer_Natural_Language_Questions)
 - ["Natural Language To NoSQL Query Conversion using Deep Learning" by Pradeep T](https://deliverypdf.ssrn.com/delivery.php?ID=977064095013107093127003094097009104019054002084028050101111093093119017004111103011043053098015118055007099029119118094090027019055041077011069094115100104109081019042085031009081106064086027100090107088086006075023084026065122091106121069074109117106&EXT=pdf&INDEX=TRUE) 
--["AI-based Question Answering system for NoSQL standard query"](https://ceur-ws.org/Vol-3058/Paper-088.pdf)
+- ["AI-based Question Answering system for NoSQL standard query"](https://ceur-ws.org/Vol-3058/Paper-088.pdf)
 
 
 
