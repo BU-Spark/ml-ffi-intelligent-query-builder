@@ -17,13 +17,13 @@ Vianey, our database, is used to collect and store information about abuses suff
 1. Situation and current issues
     1.Freedom For Immigrants (FFI) is an organization that is devoted to abolishing immigration detention, and fighting against injustices against immigrants. The FFI uses a database known as Vianey to organize case files, bond funds, and other important documents. Since this database stores aggregate data from multiple programs, they are often asked to run queries on the database, which is difficult and time consuming for their employees.
 2. Key Questions
-    1. What language is the NL(natural language) text written in?
-    2. Will the database schema change overtime?
-    3. Does the future user of this product know the exact entity names in the database?
-    4. Will the future user try to use the exact entity names to build the query text?
-    5. How much data is provided? 
-    6. Do we need to build more data?
-    7. **I think we need more ideas here!**
+    1. What language is the NL(natural language) text written in? **Primarily English.**
+    2. Will the database schema change overtime? **Yes, focus on the current schema for now.**
+    3. [duplicate of iv.]Does the future user of this product know the exact entity names in the database? **Probably not**
+    4. Will the future user try to use the exact entity names to build the query text? **They might use nicknames of entities.**
+    5. How much data is provided? **Table schemas and Enums, nicknames of entities, non-sensitive data.**
+    6. Do we need to build more data? **We might need to build more data.**
+    7. ***I think we need more ideas here!***
 3. Hypothesis: Overview of how it could be done
     1. A program that is capable of translating plain language into SQL queries and then automatically querying the database for the expected output.
 4. Impact -- need further communication with the client
@@ -41,7 +41,6 @@ The final product will include two main deliverables:
 
 A model that is able to spot the necessary entities in a plain English-language text request as well as the correlation among them. 
 A method to convert the relations from deliverable 1 to an executable query on MongoDB.
-
 
 
 ### C. Provide a solution in terms of human actions to confirm if the task is within the scope of automation through AI. 
