@@ -21,9 +21,9 @@ Papers for converting Natrual language to MongoDB query language.
 Open Source Projects Found:
 
 - [Stanford SQL-Net](https://github.com/stanfordnlp/stanfordnlp)
-- SpaCy - This is a Python library for natural language processing. It includes tools for part-of-speech tagging, dependency parsing, named entity recognition, and more. It can be used for generating SQL queries from natural language text.
-- Stanza (formerly CoreNLP) - This is a natural language processing toolkit developed by the Stanford NLP Group. It includes tools for part-of-speech tagging, named entity recognition, dependency parsing, and more. It can be used for generating SQL queries from natural language text.
-- NLTK - This is a popular Python library for natural language processing. It includes tools for tokenization, stemming, part-of-speech tagging, and more. It can be used for generating SQL queries from natural language text.
+- [SpaCy](https://spacy.io/) - This is a Python library for natural language processing. It includes tools for part-of-speech tagging, dependency parsing, named entity recognition, and more. It can be used for generating SQL queries from natural language text.
+- [Stanza](https://stanfordnlp.github.io/stanza/) (formerly CoreNLP) - This is a natural language processing toolkit developed by the Stanford NLP Group. It includes tools for part-of-speech tagging, named entity recognition, dependency parsing, and more. It can be used for generating SQL queries from natural language text.
+- [NLTK](https://www.nltk.org/) - This is a popular Python library for natural language processing. It includes tools for tokenization, stemming, part-of-speech tagging, and more. It can be used for generating SQL queries from natural language text.
 - [OPENAI SQL translation](https://platform.openai.com/examples/default-sql-translate)
 ```
 ### Postgres SQL tables, with their properties:
