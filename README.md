@@ -3,15 +3,17 @@
 # TODO
 [BLOOM](https://huggingface.co/bigscience/bloom)
 
-[gpt-neo](https://github.com/EleutherAI/gpt-neo)
-
-[NLTK](https://www.nltk.org/book/ch10.html)
-
-[NLIDB](https://www.nexthink.com/blog/natural-language-interfaces-databases-nlidb)
-
+# Research
+[research](project-research/research.md)
 
 # EDA
-[file](https://colab.research.google.com/drive/1UBzxy3ujsxPlD6h4OO_2KONAfgLGc-OC?usp=sharing)
+[FFI_EDA-2](src/FFI_EDA-2.ipynb)
+
+# Prerequisite
+[requirements](requirements.txt)
+
+# Deployment
+[Deployment](src/Deployment.ipynb)
 
 # Add Users
 
