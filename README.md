@@ -14,7 +14,12 @@ TODO: Briefly summarize research and point to long-form research files
 [research](project-research/research.md)
 
 ## Installation Instuctions
-steps goes here
+
+To successfully run the pipeline. 
+First, make sure your python version $$\geq$$ `3.8.5`.  
+Then, run:  
+`<your python environment> -m pip install requirements.txt` <br>
+
 
 ## TODO
 [BLOOM](https://huggingface.co/bigscience/bloom)
