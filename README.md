@@ -20,6 +20,7 @@ First, make sure you are using python version `≥ python3.8.5`.
 Then, run:  
 `<your python environment> -m pip install requirements.txt` <br>
 
+note: all other dependencies should be resolved in the Jupyter notebooks. 
 
 ## TODO
 [BLOOM](https://huggingface.co/bigscience/bloom)
