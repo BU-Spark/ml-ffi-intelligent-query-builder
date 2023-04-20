@@ -16,7 +16,7 @@ TODO: Briefly summarize research and point to long-form research files
 ## Installation Instuctions
 
 To successfully run the pipeline. 
-First, make sure you are using python version `$\geq$ python3.8.5`.    
+First, make sure you are using python version `≥ python3.8.5`.    
 Then, run:  
 `<your python environment> -m pip install requirements.txt` <br>
 
