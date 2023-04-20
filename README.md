@@ -1,4 +1,8 @@
 # ml-ffi-intelligent-query-builder
+description goes here
+
+# Installation Instuctions
+steps goes here
 
 # TODO
 [BLOOM](https://huggingface.co/bigscience/bloom)
@@ -14,6 +18,8 @@
 
 # Deployment
 [Deployment](src/Deployment.ipynb)
+
+# maybe something else
 
 # Add Users
 
