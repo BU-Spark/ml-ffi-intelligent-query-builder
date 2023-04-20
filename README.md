@@ -3,6 +3,13 @@
 ## Introduction
 Summary goes here.
 
+### Problem Statement:
+Vianey is a database which stores information from various industries and clients in JSON and spreadsheet format. We want to achieve the function that given a piece of plain text of human natural language, we shall generate a logical query that would obtain the data from Vianey database as desired.
+
+A more accurate description can be found [here](./project-structure/project-document.md) 
+Dependencies can be found in $requirments.txt$
+
+
 ## Research
 TODO: Briefly summarize research and point to long-form research files
 
