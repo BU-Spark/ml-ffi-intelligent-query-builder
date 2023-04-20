@@ -1,13 +1,10 @@
 # ml-ffi-intelligent-query-builder
 
 ## Introduction
-Summary goes here.
+This repository contains a software method to process natrual language (English preferred) into mongoDB queries. This project is mainly built for Vianey, Freedom for Immigrants project. Vianey is a database which stores information from various industries and clients in JSON and spreadsheet format. By following the pipeline provided in this file or following the API guide, one should be able to produce a logical mongoDB query by entering correct parameters.
 
-### Problem Statement:
-Vianey is a database which stores information from various industries and clients in JSON and spreadsheet format. We want to achieve the function that given a piece of plain text of human natural language, we shall generate a logical query that would obtain the data from Vianey database as desired.
-
-A more accurate description can be found [here](./project-structure/project-document.md) 
-Dependencies can be found in $requirments.txt$
+A more accurate description can be found in the path [./project-structure/project-document.md](./project-structure/project-document.md).   
+Dependencies can be found in ``requirments.txt``, or click [here](./requirments.txt).
 
 
 ## Research
