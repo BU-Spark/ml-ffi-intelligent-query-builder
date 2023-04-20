@@ -4,11 +4,9 @@ datasets
 tqdm
 spacy
 transformers
-textblob
+
 tensorflow_hub
 numpy
 scipy
 openai
-pyenchant
-# Enchant C library: brew install enchant
-pyspellchecker
+
