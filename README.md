@@ -4,7 +4,7 @@
 This repository contains a software method to process natrual language (English preferred) into mongoDB queries. This project is mainly built for Vianey, Freedom for Immigrants project. Vianey is a database which stores information from various industries and clients in JSON and spreadsheet format. By following the pipeline provided in this file or following the API guide, one should be able to produce a logical mongoDB query by entering correct parameters.
 
 A more accurate description can be found in the path [./project-structure/project-document.md](./project-structure/project-document.md).   
-Dependencies can be found in ``requirments.txt``, or click [here](./requirments.txt).
+Dependencies can be found in ``requirments.txt``, or click [here](./requirements.txt).
 
 
 ## Research
