@@ -1,33 +1,38 @@
 # ml-ffi-intelligent-query-builder
-description goes here
 
-# Installation Instuctions
-steps goes here
+## Introduction
+Summary goes here.
 
-# TODO
-[BLOOM](https://huggingface.co/bigscience/bloom)
+## Research
+TODO: Briefly summarize research and point to long-form research files
 
-# Research
+
 [research](project-research/research.md)
 
-# EDA
+## Installation Instuctions
+steps goes here
+
+## TODO
+[BLOOM](https://huggingface.co/bigscience/bloom)
+
+## EDA
 [FFI_EDA-2](src/FFI_EDA-2.ipynb)
 
-# Prerequisite
+## Prerequisite
 [requirements](requirements.txt)
 
-# Deployment
+## Deployment
 [Deployment](src/Deployment.ipynb)
 
-# maybe something else
+## maybe something else
 
-# Add Users
+## Add Users
 
 To add yourself to the repository, open a Pull Request modifying `COLLABORATORS`, entering your GitHub username in a newline.
 
 All Pull Requests must follow the Pull Request Template, with a title formatted like such `[Project Name]: <Descriptive Title>`
 
-# [Project Outline](./project-structure/project-document.md)
+## [Project Outline](./project-structure/project-document.md)
 
 Create branch: {yourname}Outline{...} from 'outline'.
 
