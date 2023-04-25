@@ -27,16 +27,18 @@ Then, run:
 
 Deployment.ipynb contains the entire program pipeline
 
-# Project Structure
+## Project Structure
 
 - /src/ : contains source code needed to run program (Deployment.ipynb), initial EDA, and the test database (cust_data.csv, driver_data.csv, order_data.csv, cust_service_data.csv)
 - /Project Research/ : contains all preliminary research done for the project. 
+- Deployment.ipynb : jupyter notebook that contains the entire pipeline 
 
 ### Prerequisite
 [requirements](requirements.txt)
 
 ### Deployment
 [Deployment](src/Deployment.ipynb)
+[HuggingFace space](https://huggingface.co/spaces/Vish2005/FFIProject)
 
 ## Sample Usage
 how to use
