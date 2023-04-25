@@ -31,7 +31,6 @@ Deployment.ipynb contains the entire program pipeline
 
 - /src/ : contains source code needed to run program (Deployment.ipynb), initial EDA, and the test database (cust_data.csv, driver_data.csv, order_data.csv, cust_service_data.csv)
 - /Project Research/ : contains all preliminary research done for the project. 
-- Deployment.ipynb : jupyter notebook that contains the entire pipeline 
 
 ### Prerequisite
 [requirements](requirements.txt)
