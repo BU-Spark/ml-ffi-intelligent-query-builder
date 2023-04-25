@@ -42,7 +42,7 @@ This section identifies foreseeable harms and misunderstandings.
 
 ## Evaluation
 
-[Proof of Concept](src/Proof of Concept.ipynb)
+[Proof_of_Concept](src/Proof_of_Concept.ipynb)
 
 In the Proof of Concept, at the bottom you will see a few sample queries followed by what the computer returned for those queries. Under that, you will see the manually written expected queries. The computer creates a set of valid queries with two points to note. As pointed out in the Proof of Concept, one of the queries has a redundant statement that isn't inaccurate but just extraneous. Another point to note was that one should be careful when using words like "last year" or "this month" because the computer doesn't necessarily know the current time and date, as seen in the last query. 
 
