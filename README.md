@@ -8,7 +8,7 @@
 5. [Data](#data)
 6. [Risks and Limitations](#risks-and-limitations)
 7. [Evaluation](#evaluation)
-8. [Recommendations](#recommendations)
+8. [Potential Improvements](#potential-improvements)
 9. [More Information](#more-information)
 
 ## Introduction
@@ -22,7 +22,6 @@ Dependencies can be found in ``requirments.txt``, or click [here](./requirements
 There are few previous research being done in the exact topic as what we are facing, which is converting natural language to NoSQL database, such as MongoDB, queries languages. However, there are existing projects that deals with natural language <==> SQL queries, which determines our route of solving this problem. 
 
 More details could be found in our research file [here](./project-research/research.md)
-
 
 ## Installation Instuctions
 
@@ -53,7 +52,8 @@ how to use
 about data
 
 ## Risks and Limitations
-This section identifies foreseeable harms and misunderstandings.
+>This section identifies foreseeable harms and misunderstandings.
+The entered content in the field "Plain Text Query" is passed as is to OpenAI SQL Translate API.
 
 ## Evaluation
 
@@ -61,9 +61,14 @@ This section identifies foreseeable harms and misunderstandings.
 
 In the Proof of Concept, at the bottom you will see a few sample queries followed by what the computer returned for those queries. Under that, you will see the manually written expected queries. The computer creates a set of valid queries with two points to note. As pointed out in the Proof of Concept, one of the queries has a redundant statement that isn't inaccurate but just extraneous. Another point to note was that one should be careful when using words like "last year" or "this month" because the computer doesn't necessarily know the current time and date, as seen in the last query. 
 
+## Potential Improvements
+>This section provides information on potential improvements.
 
-## Recommendations
-This section provides information on warnings and potential mitigations.
+Continue with using OpenAI SQL translate:
+1.  For better information security, encrypt recignized entities with random nouns and pass it to API, then replace the nouns back in the returned SQL query. 
+
+Or replace API with custom trained model:
+1. Train model for SQL translate.
 
 ## More Information
 ### Research
@@ -73,11 +78,6 @@ TODO: Briefly summarize research and point to long-form research files
 ### EDA
 [FFI_EDA-2](src/FFI_EDA-2.ipynb)
 
-## TODO
-[BLOOM](https://huggingface.co/bigscience/bloom)
-
-## maybe something else
-
 ## Add Users
 
 To add yourself to the repository, open a Pull Request modifying `COLLABORATORS`, entering your GitHub username in a newline.
@@ -85,13 +85,3 @@ To add yourself to the repository, open a Pull Request modifying `COLLABORATORS`
 All Pull Requests must follow the Pull Request Template, with a title formatted like such `[Project Name]: <Descriptive Title>`
 
 ## [Project Outline](./project-structure/project-document.md)
-
-Create branch: {yourname}Outline{...} from 'outline'.
-
-Commit changes to your branch.
-
-Merge changes from outline branch to your branch.(?)
-
-**Create pull request!!!** and merge to the outline branch.
-
-Delete your branch after merging. 
