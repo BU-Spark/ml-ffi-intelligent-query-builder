@@ -15,14 +15,27 @@
 This repository contains a software method to process natrual language (English preferred) into mongoDB queries. This project is mainly built for Vianey, Freedom for Immigrants project. Vianey is a database which stores information from various industries and clients in JSON and spreadsheet format. By following the pipeline provided in this file or following the API guide, one should be able to produce a logical mongoDB query by entering correct parameters.
 
 A more accurate description can be found in the path [./project-structure/project-document.md](./project-structure/project-document.md).   
+
 Dependencies can be found in ``requirments.txt``, or click [here](./requirements.txt).
 
 ## Intended Use
 This solution is being created in order to ease information retrival from relational databases. It increases the usability of databases and make it easier for non-experts to access and query data. 
 
+## Background & Research
+There are few previous research being done in the exact topic as what we are facing, which is converting natural language to NoSQL database, such as MongoDB, queries languages. However, there are existing projects that deals with natural language <==> SQL queries, which determines our route of solving this problem. 
+
+More details could be found in our research file [here](./project-research/research.md)
+
 ## Installation Instuctions
 To successfully run the pipeline. 
-First, make sure you are using python version `≥ python3.8.5`.    
+First, make sure you are using python version `≥ python3.8.5`. 
+
+### [Optional] to ensure, create and activate virtual environment for dependency management.
+`python3 -m venv .env`  
+
+Activate virtual env:
+`source .env/bin/activate`
+
 Then, run:  
 `<your python environment> -m pip install requirements.txt` <br>
 
@@ -51,7 +64,11 @@ about data
 This section identifies foreseeable harms and misunderstandings.
 
 ## Evaluation
-This section describes the evaluation protocols and provides the results.
+
+[Proof_of_Concept](src/Proof_of_Concept.ipynb)
+
+In the Proof of Concept, at the bottom you will see a few sample queries followed by what the computer returned for those queries. Under that, you will see the manually written expected queries. The computer creates a set of valid queries with two points to note. As pointed out in the Proof of Concept, one of the queries has a redundant statement that isn't inaccurate but just extraneous. Another point to note was that one should be careful when using words like "last year" or "this month" because the computer doesn't necessarily know the current time and date, as seen in the last query. 
+
 
 ## Recommendations
 This section provides information on warnings and potential mitigations.
