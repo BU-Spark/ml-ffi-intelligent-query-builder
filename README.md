@@ -2,7 +2,7 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Background & Research](#background-&-research)
+2. [Background & Research](#background&research)
 3. [Installation Instuctions](#installation-instuctions)
 4. [Sample Usage](#sample-usage)
 5. [Data](#data)
@@ -32,7 +32,7 @@ First, make sure you are using python version `≥ python3.8.5`.
 ### [Optional] to ensure, create and activate virtual environment for dependency management.
 `python3 -m venv .env`  
 
-Activate virtual env:
+Activate virtual env:   
 `source .env/bin/activate`
 
 Then, run:  
