@@ -7,7 +7,7 @@
 4. [Data](#data)
 5. [Risks and Limitations](#risks-and-limitations)
 6. [Evaluation](#evaluation)
-7. [Recommendations](#recommendations)
+7. [Potential Improvements](#potential-improvements)
 8. [More Information](#more-information)
 
 ## Introduction
@@ -21,7 +21,6 @@ Dependencies can be found in ``requirments.txt``, or click [here](./requirements
 There are few previous research being done in the exact topic as what we are facing, which is converting natural language to NoSQL database, such as MongoDB, queries languages. However, there are existing projects that deals with natural language <==> SQL queries, which determines our route of solving this problem. 
 
 More details could be found in our research file [here](./project-research/research.md)
-
 
 ## Installation Instuctions
 
@@ -52,7 +51,8 @@ how to use
 about data
 
 ## Risks and Limitations
-This section identifies foreseeable harms and misunderstandings.
+>This section identifies foreseeable harms and misunderstandings.
+The entered content in the field "Plain Text Query" is passed as is to OpenAI SQL Translate API.
 
 ## Evaluation
 
@@ -60,9 +60,14 @@ This section identifies foreseeable harms and misunderstandings.
 
 In the Proof of Concept, at the bottom you will see a few sample queries followed by what the computer returned for those queries. Under that, you will see the manually written expected queries. The computer creates a set of valid queries with two points to note. As pointed out in the Proof of Concept, one of the queries has a redundant statement that isn't inaccurate but just extraneous. Another point to note was that one should be careful when using words like "last year" or "this month" because the computer doesn't necessarily know the current time and date, as seen in the last query. 
 
+## Potential Improvements
+>This section provides information on potential improvements.
 
-## Recommendations
-This section provides information on warnings and potential mitigations.
+Continue with using OpenAI SQL translate:
+1.  For better information security, encrypt recignized entities with random nouns and pass it to API, then replace the nouns back in the returned SQL query. 
+
+Or replace API with custom trained model:
+1. Train model for SQL translate.
 
 ## More Information
 ### Research
