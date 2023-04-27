@@ -2,13 +2,14 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Installation Instuctions](#installation-instuctions)
-3. [Sample Usage](#sample-usage)
-4. [Data](#data)
-5. [Risks and Limitations](#risks-and-limitations)
-6. [Evaluation](#evaluation)
-7. [Potential Improvements](#potential-improvements)
-8. [More Information](#more-information)
+2. [Background & Research](#background&research)
+3. [Installation Instuctions](#installation-instuctions)
+4. [Sample Usage](#sample-usage)
+5. [Data](#data)
+6. [Risks and Limitations](#risks-and-limitations)
+7. [Evaluation](#evaluation)
+8. [Potential Improvements](#potential-improvements)
+9. [More Information](#more-information)
 
 ## Introduction
 This repository contains a software method to process natrual language (English preferred) into mongoDB queries. This project is mainly built for Vianey, Freedom for Immigrants project. Vianey is a database which stores information from various industries and clients in JSON and spreadsheet format. By following the pipeline provided in this file or following the API guide, one should be able to produce a logical mongoDB query by entering correct parameters.
@@ -30,7 +31,7 @@ First, make sure you are using python version `≥ python3.8.5`.
 ### [Optional] to ensure, create and activate virtual environment for dependency management.
 `python3 -m venv .env`  
 
-Activate virtual env:
+Activate virtual env:   
 `source .env/bin/activate`
 
 Then, run:  
@@ -77,11 +78,6 @@ TODO: Briefly summarize research and point to long-form research files
 ### EDA
 [FFI_EDA-2](src/FFI_EDA-2.ipynb)
 
-## TODO
-[BLOOM](https://huggingface.co/bigscience/bloom)
-
-## maybe something else
-
 ## Add Users
 
 To add yourself to the repository, open a Pull Request modifying `COLLABORATORS`, entering your GitHub username in a newline.
@@ -89,13 +85,3 @@ To add yourself to the repository, open a Pull Request modifying `COLLABORATORS`
 All Pull Requests must follow the Pull Request Template, with a title formatted like such `[Project Name]: <Descriptive Title>`
 
 ## [Project Outline](./project-structure/project-document.md)
-
-Create branch: {yourname}Outline{...} from 'outline'.
-
-Commit changes to your branch.
-
-Merge changes from outline branch to your branch.(?)
-
-**Create pull request!!!** and merge to the outline branch.
-
-Delete your branch after merging. 
