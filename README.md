@@ -42,6 +42,10 @@ Then, run:
 ### Prerequisite
 [requirements](requirements.txt)
 
+### Project Structure:
+- /src/ : contains the full project pipeline (Deployment.ipynb), EDA (EDA.ipynb), and the four csv files the we are using as a mock dataset (customer_data.csv, driver_data.csv, order_data.csv, cust_service_data.csv)
+- /Project Research/ : contains all preliminary research done in the early development stage. 
+
 ### Deployment
 [Deployment](src/Deployment.ipynb)
 
