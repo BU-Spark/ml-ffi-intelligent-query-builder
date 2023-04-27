@@ -2,13 +2,14 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Installation Instuctions](#installation-instuctions)
-3. [Sample Usage](#sample-usage)
-4. [Data](#data)
-5. [Risks and Limitations](#risks-and-limitations)
-6. [Evaluation](#evaluation)
-7. [Recommendations](#recommendations)
-8. [More Information](#more-information)
+2. [Background & Research](#background-&-research)
+3. [Installation Instuctions](#installation-instuctions)
+4. [Sample Usage](#sample-usage)
+5. [Data](#data)
+6. [Risks and Limitations](#risks-and-limitations)
+7. [Evaluation](#evaluation)
+8. [Recommendations](#recommendations)
+9. [More Information](#more-information)
 
 ## Introduction
 This repository contains a software method to process natrual language (English preferred) into mongoDB queries. This project is mainly built for Vianey, Freedom for Immigrants project. Vianey is a database which stores information from various industries and clients in JSON and spreadsheet format. By following the pipeline provided in this file or following the API guide, one should be able to produce a logical mongoDB query by entering correct parameters.
