@@ -53,16 +53,13 @@ Updated outline:
     2. Will the database schema change overtime?
         Yes, but now we should focus on the initial state of the database, based on the dataset that we are provided.
     3. Does the future user of this product know the exact entity names in the database?
-
+        Yes, resolved in meetings.
     4. Will the future user try to use the exact entity names to build the query text?
-
+        Solved in client meetings.
     5. How much data is provided? 
         Sufficient data will be provided. (However, if we want to train the model successfully, we might have to write the query corresponding to the text)
     6. Do we need to build more data?
-
-    Follow up questions after research:
-    1.
-    2. 
+        Yes, since the client does not provide data as as desired, we have to make more monk data in order to do the project.
 
 
 
