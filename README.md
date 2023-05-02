@@ -39,17 +39,21 @@ Then, run:
 
 > note: all other dependencies should be resolved in the Jupyter notebooks. 
 
+### Use Instructions
+
+On [this link](https://huggingface.co/spaces/spark-ds549/DS_549_Spring2023_FFI_Project), you will find an input UI where you can insert your OpenAI personal key and organization key as well as the English query that you want converted. If you do not have an organization key, type "None" for that field. After pressing submit, the MongoDB query should be outputted on the right. 
+
+OpenAI's free personal API keys only allow a fixed number of queries. We recommending joining BU Spark's organization on OpenAI as keys generated from there will have a far higher number of queries available.
+
 ### Prerequisite
 [requirements](requirements.txt)
 
+### Project Structure:
+- /src/ : contains the full project pipeline (Deployment.ipynb), EDA (EDA.ipynb), and the four csv files the we are using as a mock dataset (customer_data.csv, driver_data.csv, order_data.csv, cust_service_data.csv)
+- /Project Research/ : contains all preliminary research done in the early development stage. 
+
 ### Deployment
 [Deployment](src/Deployment.ipynb)
-
-## Sample Usage
-how to use
-
-## Data
-about data
 
 ## Risks and Limitations
 >This section identifies foreseeable harms and misunderstandings.
