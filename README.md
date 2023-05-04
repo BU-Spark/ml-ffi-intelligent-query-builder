@@ -43,6 +43,16 @@ On [this link](https://huggingface.co/spaces/spark-ds549/DS_549_Spring2023_FFI_P
 
 OpenAI's free personal API keys only allow a fixed number of queries. We recommending joining BU Spark's organization on OpenAI as keys generated from there will have a far higher number of queries available.
 
+#### How to get an OpenAI API key
+https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/
+
+#### How to get OpenAI Organization ID
+You can change your organization in the user dropdown at the top right of the page.
+
+Once you have switched to your organization, 
+
+visit https://platform.openai.com/account/org-settings
+
 ### Prerequisite
 [requirements](requirements.txt)
 
