@@ -2,14 +2,12 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Background & Research](#background&research)
+2. [Background & Research](#background)
 3. [Installation Instuctions](#installation-instuctions)
-4. [Sample Usage](#sample-usage)
-5. [Data](#data)
-6. [Risks and Limitations](#risks-and-limitations)
-7. [Evaluation](#evaluation)
-8. [Potential Improvements](#potential-improvements)
-9. [More Information](#more-information)
+4. [Risks and Limitations](#risks-and-limitations)
+5. [Evaluation](#evaluation)
+6. [Potential Improvements](#potential-improvements)
+7. [More Information](#more-information)
 
 ## Introduction
 This repository contains a software method to process natrual language (English preferred) into mongoDB queries. This project is mainly built for Vianey, Freedom for Immigrants project. Vianey is a database which stores information from various industries and clients in JSON and spreadsheet format. By following the pipeline provided in this file or following the API guide, one should be able to produce a logical mongoDB query by entering correct parameters.
@@ -18,7 +16,7 @@ A more accurate description can be found in the path [./project-structure/projec
 
 Dependencies can be found in ``requirments.txt``, or click [here](./requirements.txt).
 
-## Background & Research
+## Background
 There are few previous research being done in the exact topic as what we are facing, which is converting natural language to NoSQL database, such as MongoDB, queries languages. However, there are existing projects that deals with natural language <==> SQL queries, which determines our route of solving this problem. 
 
 More details could be found in our research file [here](./project-research/research.md)
@@ -57,6 +55,7 @@ OpenAI's free personal API keys only allow a fixed number of queries. We recomme
 
 ## Risks and Limitations
 >This section identifies foreseeable harms and misunderstandings.
+
 The entered content in the field "Plain Text Query" is passed as is to OpenAI SQL Translate API.
 
 ## Evaluation
