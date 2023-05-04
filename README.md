@@ -2,8 +2,8 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Background & Research](#background)
-3. [Installation Instuctions](#installation-instuctions)
+2. [Background](#background)
+3. [Use Instuctions](#use-instructions)
 4. [Risks and Limitations](#risks-and-limitations)
 5. [Evaluation](#evaluation)
 6. [Potential Improvements](#potential-improvements)
@@ -21,23 +21,10 @@ There are few previous research being done in the exact topic as what we are fac
 
 More details could be found in our research file [here](./project-research/research.md)
 
-## Installation Instuctions
+## Use Instructions
+>This section provides information on how to use or test the project.
 
-To successfully run the pipeline. 
-First, make sure you are using python version `≥ python3.8.5`. 
-
-### [Optional] to ensure, create and activate virtual environment for dependency management.
-`python3 -m venv .env`  
-
-Activate virtual env:   
-`source .env/bin/activate`
-
-Then, run:  
-`<your python environment> -m pip install requirements.txt` <br>
-
-> note: all other dependencies should be resolved in the Jupyter notebooks. 
-
-### Use Instructions
+### How to use the deployed solution
 
 On [this link](https://huggingface.co/spaces/spark-ds549/DS_549_Spring2023_FFI_Project), you will find an input UI where you can insert your OpenAI personal key and organization key as well as the English query that you want converted. If you do not have an organization key, type "None" for that field. After pressing submit, the MongoDB query should be outputted on the right. 
 
@@ -53,15 +40,45 @@ Once you have switched to your organization,
 
 visit https://platform.openai.com/account/org-settings
 
-### Prerequisite
+### How to test the source file
+[source file](src/Deployment.ipynb)
+
+#### Prerequisite
+python version `≥ python3.8.5` installed
+
+[pip](https://pip.pypa.io/en/stable/getting-started/) installed
+
+[Optional] python [virtual environments](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment)
+
+#### [Optional] Using virtual environment
+create virtual environment
+
+`python3 -m venv </path/to/new/virtual/environment>`  
+
+Activate virtual env:   
+
+`source </path/to/new/virtual/environment>/bin/activate`
+
+Confirm python path:
+
+`which python`
+
+It should be in the </path/to/new/virtual/environment> directory:
+
+`...</path/to/new/virtual/environment>/bin/python`
+
+#### install dependencies 
 [requirements](requirements.txt)
 
-### Project Structure:
-- /src/ : contains the full project pipeline (Deployment.ipynb), EDA (EDA.ipynb), and the four csv files the we are using as a mock dataset (customer_data.csv, driver_data.csv, order_data.csv, cust_service_data.csv)
-- /Project Research/ : contains all preliminary research done in the early development stage. 
+`python3 -m pip install -r requirements.txt` <br>
 
-### Deployment
-[Deployment](src/Deployment.ipynb)
+> note: File is originally run on Google Colab, you might need to upload test data file located in the `src` folder.
+To run them locally, you need to clone the repo and change file path in the source file according to your working directory.
+
+### Project Structure:
+- [src](src/) : contains the full project pipeline (Deployment.ipynb), EDA (EDA.ipynb), and the four csv files the we are using as a mock dataset (customer_data.csv, driver_data.csv, order_data.csv, cust_service_data.csv)
+- [project-research](project-research/) : contains all preliminary research done in the early development stage. 
+- [project-structure](project-structure/) : contains all preliminary research done in the early development stage. 
 
 ## Risks and Limitations
 >This section identifies foreseeable harms and misunderstandings.
@@ -78,14 +95,18 @@ In the Proof of Concept, at the bottom you will see a few sample queries followe
 >This section provides information on potential improvements.
 
 Continue with using OpenAI SQL translate:
-1.  For better information security, encrypt recignized entities with random nouns and pass it to API, then replace the nouns back in the returned SQL query. 
+1.  For better information security, obfuscate recognized entities with random nouns and pass it to API, then replace the nouns back in the returned SQL query. 
 
-Or replace API with custom trained model:
-1. Train model for SQL translate.
+Or replace OpenAI API with custom model:
+1. Use a Large Language Model, may encounter accuracy trade-off in translating SQL.
+2. Train a model optimized for SQL translation.
+
+### Future Integration
+Containerize this project and deploy as an API for embedded performance.
 
 ## More Information
 ### Research
-TODO: Briefly summarize research and point to long-form research files
+>contains all preliminary research done in the early development stage. 
 [research](project-research/research.md)
 
 ### EDA
