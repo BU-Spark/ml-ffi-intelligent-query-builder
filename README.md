@@ -40,7 +40,7 @@ Once you have switched to your organization,
 
 visit https://platform.openai.com/account/org-settings
 
-### How to test the source file
+### How to test the deployment source file
 [source file](src/Deployment.ipynb)
 
 #### Prerequisite
